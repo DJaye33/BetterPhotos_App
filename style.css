@@ -1,0 +1,117 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  font: inherit;
+  border: none;
+}
+
+button {
+  border: none;
+  background-color: initial;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://bytegrad.com/course-assets/css/2/pattern.svg),
+    linear-gradient(to bottom right, #8fd861, #2cc695 90%);
+  scrollbar-width: none;
+}
+
+.page::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  height: 1240px;
+  width: 1030px;
+  background-color: #fff;
+  box-shadow: 0 3rem 10rem rgba(0, 0, 0, 0.35);
+  margin: 8rem 0;
+
+  display: grid;
+  grid-template-columns: 35.5rem 1fr;
+  grid-template-rows: 6.5rem 72.4rem 1fr;
+}
+
+/* STYLES */
+.header {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 2.6rem;
+  margin-right: 4.8rem;
+}
+
+.search {
+}
+
+.search__input {
+}
+
+.search__submit {
+}
+
+.search__icon {
+}
+
+.nav {
+}
+
+.nav__list {
+}
+
+.nav__item {
+}
+
+.nav__link {
+}
+
+.nav__icon {
+}
+
+.sidebar {
+  background-color: #11271f;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.gallery {
+  background-color: #eef3f4;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.steps {
+  background-color: #e7deee;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
